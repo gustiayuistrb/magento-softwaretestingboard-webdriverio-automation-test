@@ -11,10 +11,8 @@ describe('Product Page Tests', () => {
 
         it('Add to cart dengan qty 1', async () => {
             await CartPage.addToCart(1); 
-
             const successMessage = await CartPage.verifySuccessMessage(); 
             expect(successMessage).toContain('You added Fusion Backpack to your shopping cart.'); 
-        
             await CartPage.verifyCartQuantity('1'); 
             await CartPage.verifyCartText('My Cart');
         });
