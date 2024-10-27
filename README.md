@@ -1,7 +1,7 @@
 # magento-softwaretestingboard-webdriverio-automation-test
 
 ## Disclaimer
-Sebelum menjalankan pengujian, harap diperhatikan bahwa URL website ini terkadang menampilkan iklan. Untuk pengalaman pengujian yang lebih baik, disarankan untuk menggunakan DNS anti-iklan, seperti *Adguard*, sebelum menjalankan tes.
+Hai sebelum menjalankan pengujian, harap diperhatikan bahwa URL website ini terkadang menampilkan iklan. Untuk pengalaman pengujian yang lebih baik, disarankan untuk menggunakan DNS anti-iklan, seperti *Adguard*, sebelum menjalankan tes.
 
 ## Proyek Automasi Pengujian
 Proyek ini bertujuan untuk melakukan automasi pengujian pada website [Magento Software Testing Board - Fusion Backpack]
@@ -55,9 +55,6 @@ Sebelum menjalankan tes, pastikan Anda telah menginstal perangkat lunak berikut:
 4. Untuk menjalankan tes automasi, gunakan perintah berikut:
    ```bash
    npx wdio run wdio.conf.js
-  atau
-  ```bash
+*  atau
+   ```bash
    npm run wdio
-
-
-
